@@ -1,0 +1,23 @@
+.sidebar{
+    flex: 0.2;
+    top: 20px;
+    height: 100vh;
+    margin-left: 20px;
+    position: sticky;
+    top: 70px;
+    left: 0;
+}
+
+.sidebar hr{
+    border-color: #eee;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar__category h4{
+    font-size: 17px;
+    color: #65676b;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 5px;
+}

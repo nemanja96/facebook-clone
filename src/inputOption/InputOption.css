@@ -1,0 +1,25 @@
+.input__option{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 5px;
+    border-radius: 10px;
+    transition: .2s all;
+    cursor: pointer;
+}
+
+.input__option:hover{
+    background-color: #e7e7e7;
+}
+
+.input__optionIcon{
+    margin-right: 10px;
+    color: #1876f2;
+    border-radius: 5px;
+}
+
+.input__optionTitle{
+    font-size: 15px;
+    font-weight: 500;
+    color: #050505;
+}

@@ -1,0 +1,86 @@
+.header{
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 24px;
+    display: flex;
+    padding: 5px 20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.header__search{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.header__searchLogo{
+    width: 40px;
+}
+
+.header__searchInput{
+    padding: 0px 10px;
+    border-radius: 30px;
+    background-color: #f0f2f5;
+    color: #1c1e21;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.header__searchIcon{
+    color: #777;
+}
+
+.header__searchInput input{
+    border: none;
+    background-color: transparent;
+    padding: 12px 5px;
+    font-size: 15px;
+}
+
+/* Header Navigation */
+.header__navigation{
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header__navigationIcon{
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 6px 40px;
+    transition: .1s all;
+    color: #777;
+    flex: 1;
+}
+
+.header__navigationIcon:hover{
+    background-color: #f0f2f5;
+}
+
+/* Header Avatar */
+.header__avatar{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__avatar span{
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #050505;
+}
+
+.logOutBtn{
+    cursor: pointer;
+    transition: .3s all;
+}
+
+.logOutBtn:hover{
+    color: #666;
+}

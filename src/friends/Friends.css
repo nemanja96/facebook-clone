@@ -1,0 +1,118 @@
+.friends{
+    flex: 0.2;
+    position: sticky;
+    top: 70px;
+    left: 0;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.sponsors{
+    border-bottom: 1px solid #ccc;
+}
+
+.sponsors__item{
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.sponsors__item img{
+    flex: 1;
+    max-width: 100px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.sponsors__item .sponsors__itemBox{
+    margin-left: 10px;
+    text-align: left;
+}
+
+.sponsors__item .sponsors__itemBox h5{
+    font-size: 15px;
+    line-height: 1em;
+    text-align: left;
+    font-weight: 600;
+}
+
+.sponsors__item .sponsors__itemBox span{
+    font-size: 13px;
+}
+
+.birthdays{
+    border-bottom: 1px solid #ccc;
+}
+
+.birthdays__item{
+    display: flex;
+    align-items: center;
+    margin: 10px 0 15px 0;
+}
+
+.birthdays__item h5{
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+    line-height: 1.3em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.friends__list img{
+    border-radius: 50% !important;
+}
+
+.friends__listTitle{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.friends__listTitle h4, .birthdays h4, .sponsors h4{
+    font-size: 17px;
+    color: #65676b;
+    font-weight: 500;
+    text-align: left;
+    flex: 4;
+}
+
+.birthdays h4, .sponsors h4{
+    margin-top: 10px;
+}
+
+.friends__listIcon{
+    flex: 1;
+    color: #65676b;
+}
+
+.friends__listAvatar{
+    text-align: left;
+    padding: 8px 5px;
+    border-radius: 10px;
+    transition: .2s all;
+    cursor: pointer;
+}
+
+.friends__listAvatar:hover{
+    background-color: #e7e7e7;
+}
+
+.friends__listAvatarIcon{
+    margin-right: 10px;
+}
+
+/* Change Badge Material UI Default Color */
+.css-1jxgrnq-MuiBadge-badge {
+    background-color: #31a24c !important;
+    border: 2px solid white;
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50% !important;
+}
+
+.friends__listAvatar span{
+    font-size: 15px;
+    font-weight: 500;
+    color: #050505;
+}

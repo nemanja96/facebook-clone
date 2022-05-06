@@ -1,0 +1,62 @@
+.post{
+    padding: 5px 15px;
+    margin: 25px 0;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 10px;
+}
+
+.post .post__author{
+    display: flex;
+    align-items: center;
+}
+
+.post .post__author .post__authorIcon{
+    margin-right: 10px;
+}
+
+.post .post__author .post__authorInfo{
+    text-align: left;
+}
+
+.post .post__author .post__authorInfo h4{
+    font-weight: 500;
+}
+
+.post .post__author .post__authorInfo h5{
+    font-weight: 500;
+    font-size: 13px;
+    color: #777;
+}
+
+.post .post__description{
+    margin-top: 5px;
+    font-size: 24px;
+    text-align: left;
+    color: #050505;
+}
+
+/* POST SOCIAL */
+.post__social{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+    padding-top: 4px;
+}
+
+.post__social .input__option{
+    flex: 1;
+    justify-content: center;
+}
+
+.post__social .input__optionIcon{
+    width: 20px;
+    height: 20px;
+    color: #666;
+}
+
+.post__social .input__optionTitle{
+    color: #666;
+    font-size: 15px;
+}
