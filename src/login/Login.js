@@ -62,7 +62,7 @@ function Login() {
     <div className='login'>
         <div className='login__left'>
             <img src={facebook} />
-            <p>Fejsbuk Vam pomaze da se povezete sa ljudima iz svog zivota i delite sadrzaj sa njima.</p>
+            <p>Fejsbuk Vam pomaže da se povežete sa ljudima iz svog života i delite sadržaj sa njima.</p>
         </div>
         <div className='login__right'>
             {!input && <div className='login__fullName'>
