@@ -3,7 +3,7 @@
 <a href="https://facebook-clone-ab37a.web.app/" target="_blank">WEBSITE LINK</a>
 
 ## Desktop Version
-<img src="facebook-clone.png" />
+<img src="facebook-clone.webp" />
 
 ## Available Scripts
 
